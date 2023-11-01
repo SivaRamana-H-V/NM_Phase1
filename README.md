@@ -61,7 +61,7 @@ The Jupyter notebooks in the `Final Analysis.ipynb` folder provide detailed step
 
 ## Author
 
-[Siva Ramana H V](sivaramana.tech)
+[Siva Ramana H V](https://sivaramana.tech)
 
 ## License
 
