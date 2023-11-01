@@ -1,42 +1,70 @@
 # Naan Mudhalvan Project
 
-## Overview
+## COVID-19 Vaccination Analysis
 
-Naan Mudhalvan is a project that [provides a brief description of the project's purpose and goals]. It [mention any specific problems it aims to solve or any unique features it offers]. This README provides information on how to set up, use, and contribute to the project.
+## Introduction
 
-## Table of Contents
+This project focuses on analyzing the COVID-19 vaccination progress across different countries. The analysis is performed using various machine learning algorithms to predict the total number of vaccinations based on different features related to the vaccination process.
 
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-- [Acknowledgments](#Acknowledgments)
-- [Contributing](#contributing)
-- [License](#license)
+## Project Structure
 
-## Getting Started
+The project is organized as follows:
 
-### Prerequisites
+- `data` folder: Contains the dataset used for analysis.
+- `notebooks` folder: Contains Jupyter notebooks for different phases of the project.
+- `requirements.txt`: File specifying the necessary packages and their versions.
+- `README.md`: This file, providing an overview of the project.
 
-List the prerequisites that users need to install the software.
+## Dataset
 
-- [Prerequisite 1](link)
-- [Prerequisite 2](link)
+The dataset used in this project contains the following features:
 
-## Contributing
+- country
+- iso_code
+- date
+- total_vaccinations
+- people_vaccinated
+- people_fully_vaccinated
+- daily_vaccinations_raw
+- daily_vaccinations
+- total_vaccinations_per_hundred
+- people_vaccinated_per_hundred
+- people_fully_vaccinated_per_hundred
+- daily_vaccinations_per_million
+- vaccines
+- source_name
+- source_website
 
-Explain how others can contribute to the project. Include guidelines for issues, code reviews, and pull requests.
+## Data Preprocessing
 
-1. Fork the repository.
-2. Create a new branch.
-3. Make your changes.
-4. Submit a pull request.
+The data preprocessing steps include handling missing values, label encoding categorical features, and scaling the data for model training.
 
+## Analysis Techniques
 
-## Acknowledgments
+The analysis includes the use of various supervised and unsupervised learning algorithms such as Linear Regression, Polynomial Regression, Decision Trees, and XGBoost. Additionally, it utilizes K-means clustering for unsupervised learning.
 
-We'd like to acknowledge and give credit to the following libraries that were instrumental in the development of this project:
+## Results
 
-- [pandas](https://pandas.pydata.org/): A powerful data manipulation library for Python.
-- [matplotlib](https://matplotlib.org/): A popular data visualization library.
-- [plotly](https://plotly.com/): A versatile library for interactive data visualization.
+The project provides insights into the relationship between different vaccination features and the total number of vaccinations. It also offers predictions for the total vaccinations based on the trained machine learning models.
+
+## Requirements
+
+The project requires the installation of specific Python packages specified in the `requirements.txt` file. Use the following command to install the necessary packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+The Jupyter notebooks in the `notebooks` folder provide detailed steps for data analysis, preprocessing, and model training. Follow the instructions in the notebooks to understand the analysis process.
+
+## Author
+
+[Your Name]
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ---
