@@ -10,8 +10,8 @@ This project focuses on analyzing the COVID-19 vaccination progress across diffe
 
 The project is organized as follows:
 
-- `data` folder: Contains the dataset used for analysis.
-- `notebooks` folder: Contains Jupyter notebooks for different phases of the project.
+- `data` ADS_Phase_2/Dataset: Contains the dataset used for analysis.
+- `notebooks`ADS_Phase_5 : Contains Jupyter notebooks for different phases of the project.
 - `requirements.txt`: File specifying the necessary packages and their versions.
 - `README.md`: This file, providing an overview of the project.
 
@@ -37,7 +37,7 @@ The dataset used in this project contains the following features:
 
 ## Data Preprocessing
 
-The data preprocessing steps include handling missing values, label encoding categorical features, and scaling the data for model training.
+The data preprocessing steps include handling missing values, label encoding categorical features, and scaling the data for model training. Data process is done by `ADS_Phase_3`
 
 ## Analysis Techniques
 
@@ -57,11 +57,11 @@ pip install -r requirements.txt
 
 ## Usage
 
-The Jupyter notebooks in the `notebooks` folder provide detailed steps for data analysis, preprocessing, and model training. Follow the instructions in the notebooks to understand the analysis process.
+The Jupyter notebooks in the `Final Analysis.ipynb` folder provide detailed steps for data analysis, preprocessing, and model training. Follow the instructions in the notebooks to understand the analysis process.
 
 ## Author
 
-[Your Name]
+[Siva Ramana H V](sivaramana.tech)
 
 ## License
 
